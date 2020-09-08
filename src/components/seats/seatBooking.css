@@ -1,16 +1,18 @@
-.container {
-}
+.container {}
+
 
 h3 {
   font-size: 1.4rem;
   margin: 3rem auto;
   width: 10rem;
 }
+
 .grid {
   width: 40rem;
   padding: 2rem;
   margin: 0 auto;
 }
+
 .grid td {
   display: block;
   width: 2.5rem;
@@ -43,4 +45,9 @@ h3 {
 .available {
   background: #FFF;
   color: grey;
-} 
+}
+
+.row-display {
+  border: none !important;
+  cursor: auto !important;
+}

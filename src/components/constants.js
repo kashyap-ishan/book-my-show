@@ -1,15 +1,33 @@
-export const SEATS = [
-  'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11',
-  'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B9', 'B10', 'B11',
-  'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11',
-  'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11',
-  'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'E9', 'E10', 'E11',
-  'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11',
-];
-export const NEXT_ROW = {
-  A: 'B',
-  B: 'C',
-  C: 'D',
-  D: 'E',
-  E: 'F',
-}
+
+
+export const seatsArrangement = [{
+    row: 'A',
+    id: 1,
+    seats: [{ number: 1, label: 'A1', type:'Club', seatId: 1 }, { number: 2, label: 'A2', type:'Club', seatId: 2 }, { number: 3, label: 'A3', type:'Club', seatId: 3 }, { number: 4, label: 'A4', type:'Club', seatId: 4 }, { number: 5, label: 'A5', type:'Club', seatId: 5 }, { number: 6, label: 'A6', type:'Club', seatId: 6 }]
+  },
+  {
+    row: 'B',
+    id: 2,
+    seats: [{ number: 1, label: 'A1', type:'Club', seatId: 7 }, { number: 2, label: 'A2', type:'Club', seatId: 8 }, { number: 3, label: 'A3', type:'Club', seatId:9 }, { number: 4, label: 'A4', type:'Club', seatId: 10 }, { number: 5, label: 'A5', type:'Club', seatId: 11 }, { number: 6, label: 'A6', type:'Club', seatId: 12 }]
+  },
+  {
+    row: 'C',
+    id: 3,
+    seats: [{ number: 1, label: 'A1', type:'Club', seatId: 13 }, { number: 2, label: 'A2', type:'Club', seatId: 14 }, { number: 3, label: 'A3', type:'Club', seatId: 15 }, { number: 4, label: 'A4', type:'Club', seatId: 16 }, { number: 5, label: 'A5', type:'Club', seatId: 17 }, { number: 6, label: 'A6', type:'Club', seatId: 18 }]
+  },
+  {
+    row: 'D',
+    id: 4,
+    seats: [{ number: 1, label: 'A1', type:'Club', seatId: 19 }, { number: 2, label: 'A2', type:'Club', seatId: 20 }, { number: 3, label: 'A3', type:'Club', seatId: 21 }, { number: 4, label: 'A4', type:'Club' , seatId: 22}, { number: 5, label: 'A5', type:'Club', seatId: 23 }, { number: 6, label: 'A6', type:'Club', seatId:24 }]
+  },
+  {
+    row: 'E',
+    id: 5,
+    seats: [{ number: 1, label: 'A1', type:'Club', seatId: 25 }, { number: 2, label: 'A2', type:'Club', seatId: 26 }, { number: 3, label: 'A3', type:'Club', seatId: 27}, { number: 4, label: 'A4', type:'Club', seatId: 28 }, { number: 5, label: 'A5', type:'Club', seatId: 29 }, { number: 6, label: 'A6', type:'Club', seatId: 30 }]
+  },
+  {
+    row: 'F',
+    id: 6,
+    seats: [{ number: 1, label: 'A1', type:'Club', seatId: 31 }, { number: 2, label: 'A2', type:'Club', seatId: 32 }, { number: 3, label: 'A3', type:'Club', seatId: 33 }, { number: 4, label: 'A4', type:'Club', seatId: 34 }, { number: 5, label: 'A5', type:'Club', seatId: 35}, { number: 6, label: 'A6', type:'Club', seatId: 36 }]
+  },
+]

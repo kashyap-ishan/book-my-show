@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from '../components/Home';
-import SeatBooking from '../components/SeatBooking';
+import SeatBooking from '../components/seats/SeatBooking';
 import Header from '../components/Header';
 const Routes = props => {
   return (
