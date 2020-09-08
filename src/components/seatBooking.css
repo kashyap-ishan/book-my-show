@@ -1,0 +1,46 @@
+.container {
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin: 3rem auto;
+  width: 10rem;
+}
+.grid {
+  width: 40rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.grid td {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  text-align: center;
+  float: left;
+  margin: 5px;
+  color: grey;
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: red;
+  color: #000;
+  cursor: none;
+}
+
+.selected {
+  background: orange;
+  color: #000;
+}
+
+.available {
+  background: #FFF;
+  color: grey;
+} 
